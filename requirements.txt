@@ -1,0 +1,7 @@
+streamlit
+ollama
+chromadb
+pandas
+scikit-learn
+python-dotenv
+pytest

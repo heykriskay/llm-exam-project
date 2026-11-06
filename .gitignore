@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.env
+.idea/
+chroma/
+*.db
+data/raw/*
+!data/raw/.gitkeep
