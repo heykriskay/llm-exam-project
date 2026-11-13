@@ -1,7 +1,9 @@
-streamlit
-ollama
-chromadb
-pandas
-scikit-learn
-python-dotenv
-pytest
+streamlit>=1.40
+ollama>=0.4
+chromadb>=0.5
+pandas>=2.2
+pyarrow>=15
+numpy>=1.26
+scikit-learn>=1.5
+tabulate>=0.9
+python-dotenv>=1.0
