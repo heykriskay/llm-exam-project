@@ -1,0 +1,298 @@
+{
+  "coef": 11.333720921572413,
+  "intercept": 165.45149699552258,
+  "mae": {
+    "regression": 80.70318896952446,
+    "llm_rag": 120.01999999999998,
+    "llm_no_rag": 575.42
+  },
+  "rows": [
+    {
+      "recipe": "Backwoods Home Baked Macaroni &amp; Cheese to Kill For",
+      "fat_g": 41.4,
+      "actual_kcal": 679.8,
+      "regression": 634.6675431486204,
+      "llm_rag": 442.0,
+      "llm_no_rag": 1704.0,
+      "reason_llm_rag": "Based on the reference examples, recipes with 41.6g of fat per serving consistently have 442 kcal per serving.",
+      "reason_llm_no_rag": "Based on the reference examples, a fat content of 41.4g corresponds to approximately 1704 kcal per serving."
+    },
+    {
+      "recipe": "Mongolian Beef",
+      "fat_g": 47.6,
+      "actual_kcal": 699.4,
+      "regression": 704.9366128623694,
+      "llm_rag": 748.0,
+      "llm_no_rag": 1945.0,
+      "reason_llm_rag": "Based on the reference data, a fat content of 47.6g corresponds to approximately 748 kcal per serving.",
+      "reason_llm_no_rag": "Based on the reference examples, a fat content of 47.6g corresponds to approximately 1945 kcal per serving."
+    },
+    {
+      "recipe": "Marinated Antipasto Platter",
+      "fat_g": 14.2,
+      "actual_kcal": 183.7,
+      "regression": 326.3903340818508,
+      "llm_rag": 238.0,
+      "llm_no_rag": 118.0,
+      "reason_llm_rag": "Based on the reference examples, a recipe with 14.2g of fat per serving typically yields 238 kcal.",
+      "reason_llm_no_rag": "Based on the reference examples, a fat content of 14.2g corresponds to approximately 118 kcal per serving."
+    },
+    {
+      "recipe": "Vanilla Banana Bread",
+      "fat_g": 18.4,
+      "actual_kcal": 479.1,
+      "regression": 373.991961952455,
+      "llm_rag": 554.0,
+      "llm_no_rag": 208.0,
+      "reason_llm_rag": "Based on the reference examples, a recipe with 18.4g of fat per serving typically contains 554 kcal per serving.",
+      "reason_llm_no_rag": "Based on the reference examples, a fat content of 18.4g corresponds to approximately 208 kcal per serving."
+    },
+    {
+      "recipe": "Frosty Gin &amp; Tonic",
+      "fat_g": 0.0,
+      "actual_kcal": 270.5,
+      "regression": 165.45149699552258,
+      "llm_rag": 86.0,
+      "llm_no_rag": 0.0,
+      "reason_llm_rag": "Based on the reference examples, a recipe with 0.0 g of fat typically provides 86 kcal per serving.",
+      "reason_llm_no_rag": "Based on the reference examples, zero fat results in zero calories."
+    }
+  ],
+  "retrieved": [
+    {
+      "recipe": "Backwoods Home Baked Macaroni &amp; Cheese to Kill For",
+      "query": "Reference recipe: fat 41.4 g per serving",
+      "retrieved": [
+        {
+          "text": "Reference recipe: fat 21.2 g per serving -> 414 kcal per serving.",
+          "similarity": 0.877,
+          "fat": 21.2
+        },
+        {
+          "text": "Reference recipe: fat 12.1 g per serving -> 414 kcal per serving.",
+          "similarity": 0.865,
+          "fat": 12.1
+        },
+        {
+          "text": "Reference recipe: fat 33.7 g per serving -> 414 kcal per serving.",
+          "similarity": 0.861,
+          "fat": 33.7
+        },
+        {
+          "text": "Reference recipe: fat 14.9 g per serving -> 412 kcal per serving.",
+          "similarity": 0.858,
+          "fat": 14.9
+        },
+        {
+          "text": "Reference recipe: fat 20.8 g per serving -> 414 kcal per serving.",
+          "similarity": 0.857,
+          "fat": 20.8
+        },
+        {
+          "text": "Reference recipe: fat 41.6 g per serving -> 442 kcal per serving.",
+          "similarity": 0.856,
+          "fat": 41.6
+        },
+        {
+          "text": "Reference recipe: fat 44.0 g per serving -> 411 kcal per serving.",
+          "similarity": 0.853,
+          "fat": 44.0
+        },
+        {
+          "text": "Reference recipe: fat 11.0 g per serving -> 414 kcal per serving.",
+          "similarity": 0.849,
+          "fat": 11.0
+        }
+      ],
+      "mean_abs_fat_gap": 17.19
+    },
+    {
+      "recipe": "Mongolian Beef",
+      "query": "Reference recipe: fat 47.6 g per serving",
+      "retrieved": [
+        {
+          "text": "Reference recipe: fat 47.5 g per serving -> 746 kcal per serving.",
+          "similarity": 0.875,
+          "fat": 47.5
+        },
+        {
+          "text": "Reference recipe: fat 36.9 g per serving -> 472 kcal per serving.",
+          "similarity": 0.872,
+          "fat": 36.9
+        },
+        {
+          "text": "Reference recipe: fat 26.4 g per serving -> 470 kcal per serving.",
+          "similarity": 0.87,
+          "fat": 26.4
+        },
+        {
+          "text": "Reference recipe: fat 27.5 g per serving -> 478 kcal per serving.",
+          "similarity": 0.867,
+          "fat": 27.5
+        },
+        {
+          "text": "Reference recipe: fat 22.3 g per serving -> 476 kcal per serving.",
+          "similarity": 0.867,
+          "fat": 22.3
+        },
+        {
+          "text": "Reference recipe: fat 26.8 g per serving -> 472 kcal per serving.",
+          "similarity": 0.866,
+          "fat": 26.8
+        },
+        {
+          "text": "Reference recipe: fat 9.7 g per serving -> 475 kcal per serving.",
+          "similarity": 0.864,
+          "fat": 9.7
+        },
+        {
+          "text": "Reference recipe: fat 41.9 g per serving -> 477 kcal per serving.",
+          "similarity": 0.861,
+          "fat": 41.9
+        }
+      ],
+      "mean_abs_fat_gap": 17.73
+    },
+    {
+      "recipe": "Marinated Antipasto Platter",
+      "query": "Reference recipe: fat 14.2 g per serving",
+      "retrieved": [
+        {
+          "text": "Reference recipe: fat 14.2 g per serving -> 144 kcal per serving.",
+          "similarity": 0.887,
+          "fat": 14.2
+        },
+        {
+          "text": "Reference recipe: fat 4.2 g per serving -> 142 kcal per serving.",
+          "similarity": 0.869,
+          "fat": 4.2
+        },
+        {
+          "text": "Reference recipe: fat 8.2 g per serving -> 142 kcal per serving.",
+          "similarity": 0.865,
+          "fat": 8.2
+        },
+        {
+          "text": "Reference recipe: fat 9.6 g per serving -> 142 kcal per serving.",
+          "similarity": 0.864,
+          "fat": 9.6
+        },
+        {
+          "text": "Reference recipe: fat 14.2 g per serving -> 332 kcal per serving.",
+          "similarity": 0.859,
+          "fat": 14.2
+        },
+        {
+          "text": "Reference recipe: fat 9.8 g per serving -> 142 kcal per serving.",
+          "similarity": 0.858,
+          "fat": 9.8
+        },
+        {
+          "text": "Reference recipe: fat 14.2 g per serving -> 238 kcal per serving.",
+          "similarity": 0.847,
+          "fat": 14.2
+        },
+        {
+          "text": "Reference recipe: fat 12.8 g per serving -> 141 kcal per serving.",
+          "similarity": 0.847,
+          "fat": 12.8
+        }
+      ],
+      "mean_abs_fat_gap": 3.3
+    },
+    {
+      "recipe": "Vanilla Banana Bread",
+      "query": "Reference recipe: fat 18.4 g per serving",
+      "retrieved": [
+        {
+          "text": "Reference recipe: fat 8.4 g per serving -> 184 kcal per serving.",
+          "similarity": 0.874,
+          "fat": 8.4
+        },
+        {
+          "text": "Reference recipe: fat 18.4 g per serving -> 334 kcal per serving.",
+          "similarity": 0.868,
+          "fat": 18.4
+        },
+        {
+          "text": "Reference recipe: fat 188.2 g per serving -> 1884 kcal per serving.",
+          "similarity": 0.867,
+          "fat": 188.2
+        },
+        {
+          "text": "Reference recipe: fat 7.4 g per serving -> 184 kcal per serving.",
+          "similarity": 0.866,
+          "fat": 7.4
+        },
+        {
+          "text": "Reference recipe: fat 18.4 g per serving -> 554 kcal per serving.",
+          "similarity": 0.861,
+          "fat": 18.4
+        },
+        {
+          "text": "Reference recipe: fat 18.4 g per serving -> 288 kcal per serving.",
+          "similarity": 0.857,
+          "fat": 18.4
+        },
+        {
+          "text": "Reference recipe: fat 18.4 g per serving -> 366 kcal per serving.",
+          "similarity": 0.856,
+          "fat": 18.4
+        },
+        {
+          "text": "Reference recipe: fat 14.4 g per serving -> 181 kcal per serving.",
+          "similarity": 0.856,
+          "fat": 14.4
+        }
+      ],
+      "mean_abs_fat_gap": 24.35
+    },
+    {
+      "recipe": "Frosty Gin &amp; Tonic",
+      "query": "Reference recipe: fat 0.0 g per serving",
+      "retrieved": [
+        {
+          "text": "Reference recipe: fat 0.0 g per serving -> 59 kcal per serving.",
+          "similarity": 0.816,
+          "fat": 0.0
+        },
+        {
+          "text": "Reference recipe: fat 0.0 g per serving -> 88 kcal per serving.",
+          "similarity": 0.815,
+          "fat": 0.0
+        },
+        {
+          "text": "Reference recipe: fat 0.0 g per serving -> 76 kcal per serving.",
+          "similarity": 0.814,
+          "fat": 0.0
+        },
+        {
+          "text": "Reference recipe: fat 0.0 g per serving -> 128 kcal per serving.",
+          "similarity": 0.808,
+          "fat": 0.0
+        },
+        {
+          "text": "Reference recipe: fat 0.0 g per serving -> 86 kcal per serving.",
+          "similarity": 0.808,
+          "fat": 0.0
+        },
+        {
+          "text": "Reference recipe: fat 0.0 g per serving -> 65 kcal per serving.",
+          "similarity": 0.804,
+          "fat": 0.0
+        },
+        {
+          "text": "Reference recipe: fat 0.0 g per serving -> 168 kcal per serving.",
+          "similarity": 0.803,
+          "fat": 0.0
+        },
+        {
+          "text": "Reference recipe: fat 0.0 g per serving -> 126 kcal per serving.",
+          "similarity": 0.803,
+          "fat": 0.0
+        }
+      ],
+      "mean_abs_fat_gap": 0.0
+    }
+  ]
+}
