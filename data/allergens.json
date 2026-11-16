@@ -1,1 +1,19 @@
-{}
+{
+  "_comment": "Keyword lists matched (case-insensitive, whole word) against ingredient names. Used for hard filters. Keyword matching is a heuristic, not a guarantee.",
+  "allergens": {
+    "gluten": ["flour", "wheat", "bread", "breadcrumbs", "bread crumbs", "pasta", "spaghetti", "macaroni", "noodles", "couscous", "barley", "rye", "semolina", "tortilla", "tortillas", "pita", "biscuit", "crackers", "cracker", "bulgur", "seitan", "panko", "croutons", "soy sauce", "beer", "lasagna noodles", "pie crust", "puff pastry", "pastry"],
+    "milk": ["milk", "butter", "cheese", "cream", "yogurt", "yoghurt", "sour cream", "cream cheese", "parmesan", "mozzarella", "cheddar", "ricotta", "feta", "buttermilk", "half-and-half", "whey", "ghee", "custard", "evaporated milk", "condensed milk"],
+    "egg": ["egg", "eggs", "egg yolk", "egg yolks", "egg white", "egg whites", "mayonnaise", "meringue"],
+    "peanut": ["peanut", "peanuts", "peanut butter", "peanut oil"],
+    "tree_nuts": ["almond", "almonds", "walnut", "walnuts", "pecan", "pecans", "cashew", "cashews", "pistachio", "pistachios", "hazelnut", "hazelnuts", "macadamia", "pine nuts", "nuts", "almond milk", "nutella"],
+    "fish": ["fish", "salmon", "tuna", "cod", "tilapia", "halibut", "anchovy", "anchovies", "sardine", "sardines", "trout", "haddock", "mackerel", "fish sauce", "worcestershire sauce"],
+    "shellfish": ["shrimp", "prawn", "prawns", "crab", "lobster", "scallop", "scallops", "clam", "clams", "mussel", "mussels", "oyster", "oysters", "crawfish"],
+    "soy": ["soy", "soy sauce", "tofu", "soybean", "soybeans", "edamame", "miso", "tempeh", "soy milk", "tamari"],
+    "sesame": ["sesame", "sesame oil", "sesame seeds", "tahini"]
+  },
+  "diet": {
+    "meat": ["chicken", "beef", "pork", "bacon", "ham", "sausage", "sausages", "turkey", "lamb", "veal", "steak", "ground beef", "ground turkey", "chorizo", "pepperoni", "salami", "prosciutto", "meat", "duck", "venison", "hot dogs", "gelatin", "chicken broth", "beef broth", "chicken stock", "beef stock", "lard", "pancetta"],
+    "seafood": ["fish", "salmon", "tuna", "cod", "tilapia", "halibut", "anchovy", "anchovies", "sardine", "sardines", "trout", "haddock", "mackerel", "fish sauce", "shrimp", "prawn", "prawns", "crab", "lobster", "scallop", "scallops", "clam", "clams", "mussel", "mussels", "oyster", "oysters", "worcestershire sauce"],
+    "animal_product": ["milk", "butter", "cheese", "cream", "yogurt", "yoghurt", "sour cream", "cream cheese", "parmesan", "mozzarella", "cheddar", "ricotta", "feta", "buttermilk", "egg", "eggs", "egg yolk", "egg yolks", "egg white", "egg whites", "mayonnaise", "honey", "ghee", "whey", "half-and-half", "evaporated milk", "condensed milk"]
+  }
+}

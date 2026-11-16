@@ -1,1 +1,10 @@
-[]
+[
+  {"id": "protein", "message": "cheap high-protein dinners", "diet": "any", "allergies": [], "max_minutes": 45},
+  {"id": "veg-quick", "message": "something quick and vegetarian", "diet": "vegetarian", "allergies": [], "max_minutes": 30},
+  {"id": "vegan-nuts", "message": "filling vegan meals for the week", "diet": "vegan", "allergies": ["peanut", "tree_nuts"], "max_minutes": 60},
+  {"id": "chicken", "message": "something easy with chicken", "diet": "any", "allergies": [], "max_minutes": 60},
+  {"id": "dairy-free", "message": "comfort food without dairy", "diet": "any", "allergies": ["milk"], "max_minutes": 90},
+  {"id": "fish", "message": "healthy fish dinners", "diet": "pescetarian", "allergies": [], "max_minutes": 45},
+  {"id": "gluten-egg", "message": "family dinners the kids will like", "diet": "any", "allergies": ["gluten", "egg"], "max_minutes": 60},
+  {"id": "fridge", "message": "Meals I can make using: eggs, spinach, potatoes, onion", "diet": "vegetarian", "allergies": [], "max_minutes": 45}
+]
